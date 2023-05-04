@@ -13,13 +13,13 @@ time.sleep(2)
 
 # enter usuario e a senha e faz o log in
 username_field = driver.find_element_by_name("username")
-username_field.send_keys("gringohti")
+username_field.send_keys("your username")
 password_field = driver.find_element_by_name("password")
-password_field.send_keys("D3vjean%123")
+password_field.send_keys("your password")
 password_field.send_keys(Keys.RETURN)
 
 # espera o processo de login completar
 time.sleep(5)
 
 # navegar para o seu perfil do  Instagram
-driver.get("https://www.instagram.com/gringohti/")
+driver.get("https://www.instagram.com/your_username/")
